@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import GiscusComments from '../../components/GiscusComments'
 
 export default function ReAct(){
   return (
@@ -19,8 +20,7 @@ export default function ReAct(){
 
         {/* Giscus comments - will render only if env vars are set */}
         <div className="mt-8">
-          {/* Dynamic import to avoid SSR issues; component will be inserted at build-time */}
-          {/* The real GiscusComments component lives in components/GiscusComments.tsx */}
+          <GiscusComments />
         </div>
       </article>
     </>

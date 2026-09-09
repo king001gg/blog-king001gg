@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import GiscusComments from '../../components/GiscusComments'
 
 export default function BM25(){
   return (
@@ -17,7 +18,7 @@ export default function BM25(){
         </ol>
 
         <div className="mt-8">
-          {/* placeholder for comments */}
+          <GiscusComments />
         </div>
       </article>
     </>

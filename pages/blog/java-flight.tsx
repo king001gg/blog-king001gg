@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import GiscusComments from '../../components/GiscusComments'
 
 export default function JavaFlight(){
   return (
@@ -11,7 +12,7 @@ export default function JavaFlight(){
         <p>示例文章：介绍基于 Spring Boot 的 Agent 实现，包含 Function Calling 协议与 SSE 流式输出等细节。</p>
 
         <div className="mt-8">
-          {/* placeholder for comments */}
+          <GiscusComments />
         </div>
       </article>
     </>
