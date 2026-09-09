@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0ea5a4" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)" />
+  <g fill="white">
+    <text x="60" y="220" font-family="Inter, Arial, Helvetica, sans-serif" font-size="56" font-weight="700">king001gg</text>
+    <text x="60" y="300" font-family="Inter, Arial, Helvetica, sans-serif" font-size="28">AI Agent 实践：ReAct · RAG · 长期记忆</text>
+    <rect x="60" y="360" width="420" height="56" rx="8" fill="rgba(255,255,255,0.12)" />
+    <text x="80" y="398" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20">AURA（Python） · 航班管家（Java）</text>
+  </g>
+</svg>
