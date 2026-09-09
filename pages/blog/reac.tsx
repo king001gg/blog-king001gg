@@ -16,6 +16,12 @@ export default function ReAct(){
           <li>异常由工具处理并返回给 LLM</li>
         </ul>
         <p className="mt-4">更多内容请参见你的 AURA 与 航班管家 仓库。</p>
+
+        {/* Giscus comments - will render only if env vars are set */}
+        <div className="mt-8">
+          {/* Dynamic import to avoid SSR issues; component will be inserted at build-time */}
+          {/* The real GiscusComments component lives in components/GiscusComments.tsx */}
+        </div>
       </article>
     </>
   )

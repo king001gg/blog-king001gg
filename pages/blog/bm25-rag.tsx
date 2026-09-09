@@ -15,6 +15,10 @@ export default function BM25(){
           <li>倒排索引与 IDF/TF 计算</li>
           <li>查询时检索 Top-K 并把结果注入到 LLM 上下文</li>
         </ol>
+
+        <div className="mt-8">
+          {/* placeholder for comments */}
+        </div>
       </article>
     </>
   )
