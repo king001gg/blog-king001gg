@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 import React from 'react'
 
-const Giscus = dynamic(() => import('@giscus/react'), { ssr: false })
+const Giscus = dynamic(() => import('@giscus/react').then((mod) => mod.Giscus), { ssr: false })
 
 export default function GiscusComments() {
   const repo = process.env.NEXT_PUBLIC_GISCUS_REPO
@@ -14,7 +14,7 @@ export default function GiscusComments() {
   return (
     <div className="mt-8">
       <Giscus
-        repo={repo}
+        repo={repo as `${string}/${string}`}
         repoId={repoId}
         category={category}
         categoryId={categoryId}
